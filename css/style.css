@@ -1,0 +1,141 @@
+@font-face{
+font-family: bahnschrift; 
+     src: url("/fonts/BAHNSCHRIFT.eot");
+}
+body {
+	background-color: black;
+	font-family: bahnschrift;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+ 
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+ 
+.form-box {
+	border-radius: 9px;
+    width: 300px;
+    background: #fff;
+    font-family: bahnschrift;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: 10px solid #003471
+}
+ 
+.form-box .form-input {
+    border: none;
+    background: #eee;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+    margin-bottom: 10px
+}
+ 
+.form-box .form-btn {
+    border: none;
+    background: #003471;
+    width: 100%;
+    height: 50px;
+    font-size: large;
+    color: #fff;
+    margin-bottom: 10px
+}
+footer{
+	margin-top: 290px;
+	position: absolute;
+}
+.navbar ul li #logo{
+	margin-right: 990px;
+}
+.navbar{
+	display: flex;
+	background-color: #003471;
+	position: absolute;
+	margin: 0px auto;
+	height: 90px;
+	width: 100%;
+	flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar ul{
+	flex-direction: row-reverse;
+	display: flex;
+	align-items: center;
+	list-style: none;	
+	margin-right: 40px;
+}
+.navbar ul li{
+	margin-left: 20px;
+	float: right;
+}
+.cont-box {
+	border-radius: 9px;
+    width: 95%;
+    height: 85%;
+    background: #fff;
+    font-family: bahnschrift;
+    /*text-align: center;*/
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#oss{
+	border: 2px solid black;
+	border-top: 25px solid #003471; 	
+	flex-direction: column;
+	width: 97%;
+	margin-top: 70px;
+	margin-left: 18px;
+	margin-bottom: 20px;
+	border-radius: 9px;
+    font-family: bahnschrift;
+	background-color: white;
+	display: flex;
+	color: black;	
+}
+.foo{
+	margin-top: 290px;
+	color: white;
+}
+.pesquisa{
+	margin: 7px;
+	width: 93%; 
+	height: 23px;
+	border: 1px solid black;
+	border-radius: 7px;
+	padding: 5px;
+}
+.pesquisab{
+	margin-right: 20px;
+	float: right;
+	margin-top: 10px;
+}
+.atendimento{
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid black;
+	border-radius: 7px;
+	height: 70px;
+
+}
+.teste{
+	overflow: scroll;
+	width: 100%;
+	height: 80%;
+}
+#total{
+	
+}
+.Resultado{
+	height: 30%;
+}
